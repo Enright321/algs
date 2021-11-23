@@ -1,8 +1,8 @@
 const sum = require('./sum');
 const sum2 = require('./sum2');
 
-describe(sum.name, () => {
-  it('test 1', () => {
+xdescribe(sum.name, () => {
+  it('adds 1 + 2 to equal 3', () => {
     // act
     const result = sum(1, 2);
 
@@ -10,7 +10,7 @@ describe(sum.name, () => {
     expect(result).toBe(3);
   });
 
-  it('test 2', () => {
+  it('adds 3 + 2 to equal 5', () => {
     // act
     const result = sum(3, 2);
 
@@ -19,8 +19,8 @@ describe(sum.name, () => {
   });
 });
 
-describe(sum2.name, () => {
-  it('test 1', () => {
+xdescribe(sum2.name, () => {
+  it('adds all of the numbers in array to equal 15', () => {
     const data = [1, 2, 3, 4, 5];
     // act
     const result = sum2(...data);
