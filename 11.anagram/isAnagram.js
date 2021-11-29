@@ -6,4 +6,6 @@ const formatStr = (str) => {
   return str.replace(/[^\w]/g, '').toLowerCase().split('').sort().join('');
 };
 
+console.log(isAnagram('cba', 'bac'));
+
 module.exports = isAnagram;

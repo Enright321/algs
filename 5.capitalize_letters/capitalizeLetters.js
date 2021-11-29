@@ -7,6 +7,6 @@ const capitalizeLetters = (str) => {
   return strArr.join(' ');
 };
 
-// console.log(capitalizeLetters('Welcome to the jungle.'));
+console.log(capitalizeLetters('Welcome to the jungle.'));
 
 module.exports = capitalizeLetters;

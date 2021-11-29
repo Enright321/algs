@@ -15,7 +15,7 @@
 
 // Solution 4
 const flattenArray = (arrays) => {
-  return arrays.flat(Infinity);
+  return arrays.reduce((a, b) => a.concat(b));
 };
 
 module.exports = flattenArray;

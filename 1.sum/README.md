@@ -4,23 +4,10 @@
 
 For param1 = 1 and param2 = 2, the output should be add(param1, param2) = 3.
 
-Hints
+Notes:
 
-Arithmetic Operators
 Rest Operator
-forEach()
-Input/Output
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters
 
-[time limit] 4000ms (js)
-[input] integer param1
-Guaranteed constraints:
-
--100 ≤ param1 ≤ 1000.
-
-[input] integer param2
-
-Guaranteed constraints: -100 ≤ param2 ≤ 1000.
-
-[output] integer
-
-The sum of the two inputs.
+Reduce
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce

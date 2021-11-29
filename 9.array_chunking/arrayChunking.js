@@ -8,4 +8,6 @@ const arrayChunking = (arr, len) => {
   return chunkedArr;
 };
 
+console.log(arrayChunking([1, 2, 3, 4, 5, 6, 7], 3));
+
 module.exports = arrayChunking;

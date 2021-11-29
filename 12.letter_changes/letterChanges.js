@@ -6,6 +6,7 @@ const letterChanges = (str) => {
       return String.fromCharCode(char.charCodeAt() + 1);
     }
   });
+
   newStr = newStr.replace(/a|e|i|o|u/gi, (vowel) => vowel.toUpperCase());
   return newStr;
 };

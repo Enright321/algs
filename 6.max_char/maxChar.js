@@ -33,12 +33,12 @@ const maxChar = (str) => {
         maxChar.count = currentChar.count;
       }
       currentChar.char = char;
-      currentChar.count = 0;
+      currentChar.count = 1;
     }
   });
   return maxChar.char;
 };
 
-// console.log(maxChar('javascript'));
+console.log(maxChar('javascript'));
 
 module.exports = maxChar;
