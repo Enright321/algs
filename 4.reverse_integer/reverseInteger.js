@@ -3,4 +3,6 @@ const reverseInteger = (num) => {
   return parseInt(revString) * Math.sign(num);
 };
 
+console.log(reverseInteger(-321));
+
 module.exports = reverseInteger;
