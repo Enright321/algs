@@ -20,6 +20,6 @@
 //     .filter((word) => word.length === inputArray[0].length);
 // };
 
-console.log(allLongestStrings(['aba', 'aa', 'ad', 'vcd', 'aba']));
+console.log(allLongestStrings(['aba']));
 
 module.exports = allLongestStrings;
