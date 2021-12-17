@@ -1,17 +1,17 @@
 // Solution 1
-// const allLongestStrings = (inputArray) => {
-//   let longestLength = 0;
-//   const longestWords = [];
-//   inputArray.forEach((word) => {
-//     longestLength = longestLength < word.length ? word.length : longestLength;
-//   });
-//   inputArray.forEach((word) => {
-//     if (word.length === longestLength) {
-//       longestWords.push(word);
-//     }
-//   });
-//   return longestWords;
-// };
+const allLongestStrings = (inputArray) => {
+  let longestLength = 0;
+  const longestWords = [];
+  inputArray.forEach((word) => {
+    longestLength = longestLength < word.length ? word.length : longestLength;
+  });
+  inputArray.forEach((word) => {
+    if (word.length === longestLength) {
+      longestWords.push(word);
+    }
+  });
+  return longestWords;
+};
 
 // Solution 2
 // const allLongestStrings = (inputArray) => {

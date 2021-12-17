@@ -1,16 +1,20 @@
-// const luckyNumber = (num) => {
-//   let total = 0;
-//   let evenInd = [];
-//   let oddInd = [];
-//   let numArr = num.toString().split('');
-//   numArr.forEach((val, i) => {
-//     if (i % 2 === 0) {
-//       evenInd.push(val);
-//     } else {
-//       oddInd.push(val);
-//     }
-//   });
-//   return oddInd;
-// };
+// My Solution
+const luckyNumber = (L, R) => {
+  const regEx = /6[^8]|8[^6]/g;
+  let numArr = [];
+  if (L === R) {
+    return 0;
+  }
+  for (let i = L; i <= R; i++) {
+    numArr.push(i);
+  }
+  let numStr = numArr.join('');
+  const found = numStr.match(regEx);
 
-console.log(luckyNumber(6871));
+  return found.length;
+};
+
+// console.log(luckyNumber(1, 10));
+console.log(luckyNumber(58, 72));
+
+module.exports = luckyNumber;

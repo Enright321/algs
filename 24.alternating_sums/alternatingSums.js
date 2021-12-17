@@ -13,3 +13,5 @@
 // };
 
 console.log(alternatingSums([50, 60, 60, 45, 70]));
+
+module.exports = alternatingSums;
