@@ -10,4 +10,5 @@ const arrayChange = (arr) => {
   return count;
 };
 
-console.log(arrayChange([1, 1, 1]));
+// console.log(arrayChange([1, 1, 1]));
+module.exports = arrayChange;

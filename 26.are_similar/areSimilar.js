@@ -27,4 +27,13 @@
 //   return false;
 // };
 
-// console.log(areSimilar(213, 312));
+// My Solution
+const areSimilar = (arr1, arr2) => {
+  return (
+    arr1.toString().split('').sort().join('') ===
+    arr2.toString().split('').sort().join('')
+  );
+};
+
+// console.log(areSimilar([213], [312]));
+module.exports = areSimilar;
