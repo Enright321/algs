@@ -1,1 +1,1 @@
-![image](C:\JavaScript\algs\images\flippingBits.PNG)
+![image](C:\JavaScript\algs\images\flippingBits.png)
