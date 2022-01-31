@@ -1,2 +1,2 @@
-Reverse an integer in reverse
+Reverse an integer
 ex. reverseInteger(123) === 321

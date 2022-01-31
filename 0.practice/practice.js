@@ -1,7 +1,10 @@
-const flattenArray = (str1, str2) => {
-  let str1Sort = str1.split('').sort().join('');
-  let str2Sort = str2.split('').sort().join('');
-  return str1Sort === str2Sort;
+const timeConversion = (s) => {
+  
 };
 
-console.log(flattenArray('hello', 'loeh'));
+
+
+// return '12:01:00'
+console.log(timeConversion('12:01:00PM'));
+// return '00:01:00'
+console.log(timeConversion('12:01:00AM'));

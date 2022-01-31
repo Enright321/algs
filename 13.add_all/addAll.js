@@ -1,7 +1,7 @@
 // Solution 1
-const addAll = (...params) => {
-  return params.reduce((a, b) => a + b);
-};
+// const addAll = (...params) => {
+//   return params.reduce((a, b) => a + b);
+// };
 
 // Solution 2
 // function addAll() {

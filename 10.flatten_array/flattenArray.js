@@ -1,7 +1,7 @@
 // Solution 1
-const flattenArray = (arrays) => {
-  return arrays.reduce((a, b) => a.concat(b));
-};
+// const flattenArray = (arrays) => {
+//   return arrays.reduce((a, b) => a.concat(b));
+// };
 
 // Solution 2
 // const flattenArray = (arrays) => {

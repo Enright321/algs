@@ -3,6 +3,6 @@ const isPalindrome = (str) => {
   return str === reverseString;
 };
 
-console.log(isPalindrome('acecar'));
+console.log(isPalindrome('racecar'));
 
 module.exports = isPalindrome;
