@@ -21,5 +21,5 @@
 // };
 
 console.log(allLongestStrings(['aba', 'aa', 'ad', 'vcd', 'aba']));
-
+console.log(allLongestStrings(['aba', 'aa', 'ad']));
 module.exports = allLongestStrings;

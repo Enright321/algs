@@ -1,11 +1,30 @@
-const sortByHeight = (a) => {
-  const arr1 = [];
-  const arr2 = [];
-  a.forEach((val, i) => (val === -1 ? arr1.push(i) : arr2.push(val)));
-  const sortArr = arr2.sort((a, b) => a - b);
-  arr1.forEach((val, i) => sortArr.splice(arr1[i], 0, -1));
-  return sortArr;
-};
+// solution 1
+// const sortByHeight = (arr) => {
+//   const indexArr = [];
+//   const valArr = [];
+//   arr.forEach((val, i) => (val === -1 ? indexArr.push(i) : valArr.push(val)));
+//   let newArr = valArr.sort();
+//   indexArr.forEach((val, i) => newArr.splice(indexArr[i], 0, -1));
+//   return newArr;
+// };
+
+// Solution 2
+// const sortByHeight = (arr) => {
+//   let valArr = [];
+//   let indexArr = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === -1) {
+//       indexArr.push(i);
+//     } else {
+//       valArr.push(arr[i]);
+//     }
+//   }
+//   let sortedArr = valArr.sort();
+//   for (let j = 0; j < indexArr.length; j++) {
+//     sortedArr.splice(indexArr[j], 0, -1);
+//   }
+//   return sortedArr;
+// };
 
 console.log(sortByHeight([-1, 150, 190, 170, -1, -1, 160, 180]));
 

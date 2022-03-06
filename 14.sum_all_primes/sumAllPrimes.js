@@ -1,3 +1,4 @@
+// Solution 1
 // const sumAllPrimes = (num) => {
 //   let total = 0;
 //   const checkForPrime = (i) => {
@@ -14,6 +15,26 @@
 //     }
 //   }
 //   return total;
+// };
+
+// solution 2: Needs Work
+// const sumAllPrimes = (num) => {
+//   let sum = 0;
+//   for (let i = 2; i < num; i++) {
+//     if (isPrime(i)) {
+//       sum += i;
+//     }
+//   }
+//   return sum;
+// };
+// const isPrime = (num) => {
+//   for (let i = 2; i <= num; i++) {
+//     if (num % i === 0) {
+//       return false;
+//     } else {
+//       return true;
+//     }
+//   }
 // };
 
 console.log(sumAllPrimes(10));

@@ -7,13 +7,14 @@
 //   return strArr.join(' ');
 // };
 
-const capitalizeLetters = (sentence) => {
-  let sentArr = sentence.split(' ');
-  for (let i = 0; i < sentArr.length; i++) {
-    sentArr[i] = sentArr[i].slice(0, 1).toUpperCase() + sentArr[i].slice(1);
-  }
-  return sentArr.join(' ');
-};
+// const capitalizeLetters = (sentence) => {
+//   let sentArr = sentence.split(' ');
+//   for (let i = 0; i < sentArr.length; i++) {
+//     sentArr[i] = sentArr[i].slice(0, 1).toUpperCase() + sentArr[i].slice(1);
+//   }
+//   return sentArr.join(' ');
+// };
+
 console.log(capitalizeLetters('Welcome to the jungle.'));
 
 module.exports = capitalizeLetters;
